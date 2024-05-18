@@ -1,0 +1,127 @@
+*{
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+}
+
+/* Header Style */
+header{
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 200px 0;
+}
+.header-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: right;
+}
+.header-title{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 500px;
+}
+.header-description{
+    color: #444343;
+    margin-left: 600px;
+    margin-bottom: 32px;
+    margin-top: 25px;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Main section styling */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Previous section styling */
+.previous{
+    max-width: 100%;
+    margin: 130px auto;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+}
+.section-description{
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.previous-list{
+    list-style-type: none;
+    padding: 0;
+}
+.previous-list li{
+    margin: 10px 0;
+    color: #444343;
+}
+.check-mark{
+    color: #16D887;
+}
+
+/* My plan section styling */
+.my-plan{
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.plan-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.plan-description{
+    font-size: 25px;
+    color: #737272;
+    font-weight: 500;
+}
+
+/* positive section styling */
+.positive{
+    width: 100%;
+    margin: 130px 0;
+}
+.positive-content{
+    padding: 64px 600px 60px 30px;
+    background:url('../images/watch.png'), linear-gradient(0.25turn, #F15B22, rgba(241, 91, 34, 0));
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-blend-mode:overlay;
+    border-radius: 5px;
+}
+.positive .section-title{
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.btn-secondary{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
