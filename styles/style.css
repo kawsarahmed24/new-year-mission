@@ -125,3 +125,50 @@ main{
     border: none;
     border-radius: 5px;
 }
+/* Footer styling */
+footer{
+    background-color: #151414;
+    color: #FFFFFF;
+    padding: 130px 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 330px;
+    align-items: center;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+}
+.footer-description{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.subscribe-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#email{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #151414;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 325px;
+}
+.social-container ul{
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+    padding: 0;
+    margin-top: 30px;
+}
